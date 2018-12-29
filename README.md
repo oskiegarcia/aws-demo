@@ -44,6 +44,6 @@ Base Path Mappings
 
 ## Route53
 
-Create Record Set of Type A with subdomain book-manager.<domain-name>
+Create Record Set of Type A with subdomain book-manager.{domain-name}
 
 	
