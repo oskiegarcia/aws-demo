@@ -2,7 +2,7 @@
 
 ## API Gateway
 
-###Endpoints
+### Endpoints
 ```
 	/books
 	   POST
