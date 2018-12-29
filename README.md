@@ -13,12 +13,12 @@
 	   PUT
 ```
 
-### Integration Request Mapping Template for DELETE/GET:
+### Integration Request Mapping Template for DELETE/GET /books/{isbn} :
 	{
 	"isbn" : "$input.params('isbn')"
 	}
 	
-### Integration Request Mapping Template for PUT:
+### Integration Request Mapping Template for PUT /books/{isbn} :
 	
 	{
 	  "isbn" : "$input.params('isbn')",
