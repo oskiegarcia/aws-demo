@@ -41,8 +41,8 @@
 		/v1	books-management-api:dev
 ```
 	
-### Route53
+## Route53
 
-Create Record Set of Type A with subdomain book-manager.oskie.ninja
+Create Record Set of Type A with subdomain book-manager.<domain-name>
 
 	
