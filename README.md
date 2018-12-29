@@ -36,14 +36,12 @@
 ```
 
 ### Create custom domain
+Base Path Mappings
 
-	Base Path Mappings
-	| Path | Destination             |
-	|--------------------------------|
-	|/v1   | books-management-api:dev|
-			
+| Path | Destination             |
+|--------------------------------|
+|/v1   | books-management-api:dev|
 
-	
 ## Route53
 
 Create Record Set of Type A with subdomain book-manager.<domain-name>
