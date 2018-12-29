@@ -3,7 +3,7 @@
 ## API Gateway
 
 ###Endpoints
-{code}
+```
 	/books
 	   POST
 	   GET
@@ -11,5 +11,5 @@
 	   DELETE
 	   GET
 	   PUT
-{code}
+```
 
