@@ -2,8 +2,8 @@
 
 ## API Gateway
 
-###Endpoints
-{code}
+### Endpoints
+```
 	/books
 	   POST
 	   GET
@@ -11,5 +11,37 @@
 	   DELETE
 	   GET
 	   PUT
-{code}
+```
+
+### Integration Request Mapping Template for DELETE and GET /books/{isbn} :
+```
+
+	{
+	"isbn" : "$input.params('isbn')"
+	}
+```
+	
+### Integration Request Mapping Template for PUT /books/{isbn} :
+```
+	
+	{
+	  "isbn" : "$input.params('isbn')",
+	   "title" : $input.json('$.title'),
+	   "description" : $input.json('$.description'),
+	   "authors" : $input.json('$.authors'),
+	   "published_date" : $input.json('$.published_date'),
+	   "publisher" : $input.json('$.publisher'),
+	   "subjects" : $input.json('$.subjects')
+	}
+```
+
+### Create custom domain
+```
+	Add Base Path Mapping
+		/v1	books-management-api:dev
+```
+	
+### Route53
+
+Create Record Set of Type A with subdomain book-manager.oskie.ninja
 
