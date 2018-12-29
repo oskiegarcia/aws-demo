@@ -37,8 +37,12 @@
 
 ### Create custom domain
 ```
-	Add Base Path Mapping
-		/v1	books-management-api:dev
+	Base Path Mappings
+	| Path | Destination             |
+	----------------------------------
+	|/v1   | books-management-api:dev|
+	----------------------------------
+			
 ```
 	
 ## Route53
