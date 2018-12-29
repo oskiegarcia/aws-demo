@@ -39,7 +39,7 @@
 Base Path Mappings
 
 | Path | Destination             |
-|--------------------------------|
+|------|-------------------------|
 |/v1   | books-management-api:dev|
 
 ## Route53
